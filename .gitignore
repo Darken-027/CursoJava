@@ -1,0 +1,70 @@
+# Archivos compilados de Java
+*.class
+
+# Archivos de log
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# --- Ya en tu lista, se mantienen ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# --- Extras recomendados ---
+# Archivos swap de editores
+*.swp
+*.swo
+
+# Informes de pruebas
+test-output/
+surefire-reports/
+
+# Archivos de cobertura (como los de Jacoco)
+jacoco.exec
+*.ec
+*.exec
+*.coverage
+coverage-reports/
+
+# Salida de empaquetado (por ejemplo, si haces un .jar local)
+*.jar
+*.war
+*.ear
