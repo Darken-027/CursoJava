@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class CalculadoraDeRenderizacion {
     public static void main(String[] args) {
         /*
@@ -12,5 +14,12 @@ public class CalculadoraDeRenderizacion {
          *  - Precio por minuto de render
          *  - Cantidad de minutos a renderizar
          * */
+
+        System.out.println("Indique la cantidad de minutos a grabar:");
+        Scanner teclado = new Scanner(System.in);
+        double cantidadMinutos = teclado.nextDouble();
+        double precioPorMinuto = 0.05f;
+        double precioFinal = precioPorMinuto * cantidadMinutos;
+        System.out.println("El precio final: $" + precioFinal);
     }
 }
