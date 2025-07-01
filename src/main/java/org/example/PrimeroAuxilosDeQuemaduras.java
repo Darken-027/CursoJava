@@ -48,7 +48,7 @@ public class PrimeroAuxilosDeQuemaduras {
             System.out.println("6. prevención y tratamiento de infecciones");
         }
         else {
-            System.out.println("Por favor ingrese un valor adecuado");
+            System.out.println("Por favor ingrese un valor adecuado para indicar el tipo de quemadura");
         }
     }
 }
