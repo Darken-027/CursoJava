@@ -1,8 +1,14 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class MayorDeEdad {
     public static void main(String[] args) {
-        int edad = 25;
+        System.out.println("Ingrese su edad");
+        Scanner teclado = new Scanner(System.in);
+        int loQueEscrioElUsuario = teclado.nextInt();
+
+        int edad = loQueEscrioElUsuario;
         if(edad >= 18) {
             System.out.println("El edad es mayor que 18");
         }else {
