@@ -19,6 +19,8 @@ public class GeneradorDeContraseñas {
     public static void main(String[] args) {
         SecureRandom random = new SecureRandom();
 
+        System.out.println("GENERADOR DE CONTRASEÑAS");
+        System.out.println("");
         for (int i = 0; i < CANTIDAD_CONTRASENAS; i++) {
             StringBuilder contrasena = new StringBuilder();
 
