@@ -19,7 +19,9 @@ public class Ejercicio_1 {
         n = t.nextInt();
 
         if(n > 0){
-            System.out.println("Exelente");
+            for (int i = 1; i <= 10; i++){
+                
+            }
         }
         else{
             System.out.println("El numero ingresado no es correcto");
