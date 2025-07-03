@@ -20,7 +20,7 @@ public class Ejercicio_1 {
 
         if(n > 0){
             for (int i = 1; i <= 10; i++){
-                
+                System.out.println(n + "por" + i + "es igual a: " + n * i); 
             }
         }
         else{
