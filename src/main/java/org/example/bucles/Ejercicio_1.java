@@ -13,18 +13,22 @@ public class Ejercicio_1 {
          */
 
         Scanner t = new Scanner(System.in);
-
+        boolean comprobar = true;
         int n;
-        System.out.print("Ingrese un numero entero positivo: ");
-        n = t.nextInt();
 
-        if(n > 0){
-            for (int i = 1; i <= 10; i++){
-                System.out.println(n + " por " + i + " es igual a: " + n * i);
+        while(comprobar == true){
+            System.out.print("Ingrese un numero entero positivo: ");
+            n = t.nextInt();
+
+            if(n > 0){
+                for (int i = 1; i <= 10; i++){
+                    System.out.println(n + " por " + i + " es igual a: " + n * i);
+                }
+                comprobar = false;
             }
-        }
-        else{
-            System.out.println("El numero ingresado no es correcto");
+            else{
+                System.out.println("El numero ingresado no es correcto");
+            }
         }
     }
 }
