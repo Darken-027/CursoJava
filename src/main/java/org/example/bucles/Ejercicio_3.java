@@ -5,8 +5,10 @@ public class Ejercicio_3 {
         int i = 0;
 
         while(i < 100){
-            System.out.println(i);
             i++;
+            if(i % 5 == 0){
+                System.out.println(i);
+            }
         }
     }
 }
