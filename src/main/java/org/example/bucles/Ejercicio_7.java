@@ -9,7 +9,7 @@ public class Ejercicio_7 {
         int numero = sc.nextInt();
         
         for (int i = 0; i < 10; i++){
-            System.out.println("Multiplica : " + i + " X " + numero);
+            System.out.println("Multiplica : " + i + " X " + numero + " = " + (i * numero));
         }
     }
 }
