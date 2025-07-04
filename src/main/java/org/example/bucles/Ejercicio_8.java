@@ -3,6 +3,8 @@ package org.example.bucles;
 import java.util.Scanner;
 
 public class Ejercicio_8 {
+
+    //Corregir 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double suma = 0;
