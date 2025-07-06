@@ -8,5 +8,9 @@ public class Ejericio_9 {
 
         System.out.println("Introduce un numero");
         int numero = scanner.nextInt();
+
+        for(int i = numero + 1; i <= 5; i++){
+            
+        }
     }
 }
