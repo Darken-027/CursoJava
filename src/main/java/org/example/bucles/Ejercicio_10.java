@@ -7,7 +7,7 @@ public class Ejercicio_10 {
         Scanner scanner = new Scanner(System.in);
         for(int i = 0; i < 10; i++){
             System.out.println("Introduce un numero: ");
-            
+            int a  = scanner.nextInt();
         }
     }
 }
