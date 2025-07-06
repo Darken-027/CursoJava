@@ -7,5 +7,6 @@ public class Ejericio_9 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduce un numero");
+        int numero = scanner.nextInt();
     }
 }
