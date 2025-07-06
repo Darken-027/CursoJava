@@ -10,7 +10,7 @@ public class Ejericio_9 {
         int numero = scanner.nextInt();
 
         for(int i = numero + 1; i <= numero + 5; i++){
-            System.out.println(i);
+            System.out.println(i + " las operaciones son: " + " cuadrado = " + i * i + " cubo = " + i * i * i);
         }
     }
 }
