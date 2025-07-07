@@ -8,5 +8,11 @@ public class EjemploArreglo {
         //Inicializacion de un arreglo
         nombres = new  String[4];
         String[] nombres2 = new String[4];
+
+        nombres[0] = "Lucas";
+        nombres[1] = "Maria";
+        nombres[2] = "Pedro";
+        nombres[3] = "Rodrigo";
+        
     }
 }
