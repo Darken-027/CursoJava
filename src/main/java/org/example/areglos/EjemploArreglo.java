@@ -13,6 +13,9 @@ public class EjemploArreglo {
         nombres[1] = "Maria";
         nombres[2] = "Pedro";
         nombres[3] = "Rodrigo";
-        
+
+        for(int i = 0; i < 4; i++){
+            
+        }
     }
 }
