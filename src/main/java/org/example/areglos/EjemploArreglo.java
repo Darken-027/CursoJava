@@ -14,6 +14,8 @@ public class EjemploArreglo {
         nombres[2] = "Pedro";
         nombres[3] = "Rodrigo";
 
+        nombres[3] = null;
+
         for(int i = 0; i < 4; i++){
             String nombre = nombres[i];
             System.out.println(nombre);
