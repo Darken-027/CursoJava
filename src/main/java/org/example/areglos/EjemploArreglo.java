@@ -7,5 +7,6 @@ public class EjemploArreglo {
         String[] nombres;
         //Inicializacion de un arreglo
         nombres = new  String[4];
+        String[] nombres2 = new String[4];
     }
 }
