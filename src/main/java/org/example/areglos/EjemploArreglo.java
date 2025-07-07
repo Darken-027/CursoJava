@@ -15,7 +15,7 @@ public class EjemploArreglo {
         nombres[3] = "Rodrigo";
 
         for(int i = 0; i < 4; i++){
-            
+            String nombre = nombres[i];
         }
     }
 }
