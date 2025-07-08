@@ -8,5 +8,16 @@ public class PromedioNotas {
         System.out.print("Ingrese la nota del primer semestre: ");
         System.out.print("Ingrese la nota del segundo semeste: ");
         System.out.println("El promedio es: X");
+
+
+        
+
+        /**
+         *Buena estartegia para solucionar un problema
+         * Escribir primero los mensajes para darnos
+         * cuenta como va a funcionar el codigo, como
+         * fluira el codigo.
+         */
+
     }
 }
