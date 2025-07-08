@@ -5,5 +5,6 @@ public class PromedioNotas {
         System.out.print("Ingrese la cantidad de Alumnos: ");
 
         System.out.print("Ingrese el nombre del Alumno: ");
+        System.out.print("Ingrese la nota del primer semestre: ");
     }
 }
