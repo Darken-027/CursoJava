@@ -30,7 +30,7 @@ public class PromedioNotas {
         }
 
         for(int i = 0; i < cantidadAlumnos; i++){
-            
+            String cantidadAlumno = alumnos[i];
         }
 
         for (String nombreAlumno : alumnos) {
