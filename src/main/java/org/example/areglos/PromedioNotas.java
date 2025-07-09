@@ -10,6 +10,10 @@ public class PromedioNotas {
         int cantidadAlumnos = teclado.nextInt();
 
         String[] alumnos = new String[cantidadAlumnos];
+
+        for(){
+            
+        }
         
         System.out.print("Ingrese el nombre del Alumno: ");
         String nombreAlumno = teclado.next();
