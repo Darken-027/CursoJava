@@ -14,6 +14,7 @@ public class PromedioNotas {
         for(int i = 0; i < cantidadAlumnos; i++){
             System.out.print("Ingrese el nombre del Alumno: ");
             String nombreAlumno = teclado.next();
+            alumnos[i] = nombreAlumno;
 
             System.out.print("Ingrese la nota del primer semestre: ");
             float nota1 = teclado.nextFloat();
@@ -23,6 +24,9 @@ public class PromedioNotas {
 
             float promedio = (nota1 + nota2) / 2;
             System.out.println("El promedio de : " + nombreAlumno + " es de: " + promedio);
+        }
+        for (String nombreAlumno : alumnos) {
+            System.out.println(alumnos);
         }
 
         /**
