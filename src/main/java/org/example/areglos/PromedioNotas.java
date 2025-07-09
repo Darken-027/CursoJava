@@ -28,8 +28,14 @@ public class PromedioNotas {
             
             System.out.println("El promedio de : " + nombreAlumno + " es de: " + promedio);
         }
+
+        for(int i = 0; i < cantidadAlumnos; i++){
+            
+        }
+
         for (String nombreAlumno : alumnos) {
-            System.out.println(alumnos);
+            floar promedio = 
+            System.out.println(alumnos + " -Nota Promedio: " + promedio);
         }
 
         /**
