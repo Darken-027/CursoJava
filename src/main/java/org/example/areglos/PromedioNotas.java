@@ -8,6 +8,8 @@ public class PromedioNotas {
         
         System.out.print("Ingrese la cantidad de Alumnos: ");
         int cantidadAlumnos = teclado.nextInt();
+
+        String[] alumnos = new String[cantidadAlumnos];
         
         System.out.print("Ingrese el nombre del Alumno: ");
         String nombreAlumno = teclado.next();
