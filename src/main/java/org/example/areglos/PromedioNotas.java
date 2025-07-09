@@ -10,6 +10,7 @@ public class PromedioNotas {
         int cantidadAlumnos = teclado.nextInt();
 
         String[] alumnos = new String[cantidadAlumnos];
+        Float[] promedios = new Float[cantidadAlumnos];
 
         for(int i = 0; i < cantidadAlumnos; i++){
             System.out.print("Ingrese el nombre del Alumno: ");
