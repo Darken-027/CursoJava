@@ -19,7 +19,7 @@ public class PromedioNotas {
         float nota2 = teclado.nextFloat();
 
         float promedio = (nota1 + nota2) / 2;
-        System.out.println("El promedio es: " + promedio);
+        System.out.println("El promedio de : " + nombreAlumno + " es de: " + promedio);
 
 
 
