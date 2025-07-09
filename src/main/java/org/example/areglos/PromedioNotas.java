@@ -11,7 +11,7 @@ public class PromedioNotas {
 
         String[] alumnos = new String[cantidadAlumnos];
 
-        for(){
+        for(int i = 0; i < cantidadAlumnos; i++){
             
         }
         
