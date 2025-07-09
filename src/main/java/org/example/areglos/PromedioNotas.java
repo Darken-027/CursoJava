@@ -31,11 +31,13 @@ public class PromedioNotas {
 
         for(int i = 0; i < cantidadAlumnos; i++){
             String cantidadAlumno = alumnos[i];
+            Float promedio = promedios[i];
+            System.out.println(alumnos + " -Nota Promedio: " + promedio);
         }
 
         for (String nombreAlumno : alumnos) {
             floar promedio = 
-            System.out.println(alumnos + " -Nota Promedio: " + promedio);
+            
         }
 
         /**
