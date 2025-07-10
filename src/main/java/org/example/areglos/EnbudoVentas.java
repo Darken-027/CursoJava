@@ -2,6 +2,7 @@ package org.example.areglos;
 
 public class EnbudoVentas {
     public static void main(String[] args) {
+        int contactos = 10000;
 
         String etapa1 = "Se le envia un email";
         int porcentaje1 = 25;
