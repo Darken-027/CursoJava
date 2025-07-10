@@ -6,5 +6,6 @@ public class PiedraPapelTigera {
         System.out.println("Escribe alguno de estos: piedra, papel o tijeras");
 
         System.out.println("La computadora escogio: papel");
+        System.out.println("EMPATE!");
     }
 }
