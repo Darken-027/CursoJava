@@ -4,6 +4,7 @@ public class EnbudoVentas {
     public static void main(String[] args) {
         int prospectos = 10000;
 
+        System.out.println("Hay " + prospectos + " prospectos.");
         String etapa1 = "Se le envia un email";
         int porcentaje1 = 25;
         prospectos = porcentaje1 * prospectos / 100;
