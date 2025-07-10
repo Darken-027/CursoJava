@@ -3,11 +3,13 @@ package org.example.areglos;
 public class EnbudoVentas {
     public static void main(String[] args) {
         int prospectos = 10000;
-
-        System.out.println("Hay " + prospectos + " prospectos.");
+        System.out.println("Etapa 0: Hay " + prospectos + " prospectos.");
+        
         String etapa1 = "Se le envia un email";
         int porcentaje1 = 25;
         prospectos = porcentaje1 * prospectos / 100;
+        System.out.println("Etapa 0: Hay " + prospectos + " prospectos.");
+
 
         String etapa2 = "El prospecto ingresa a la web";
         int procentaje2 = 10;
