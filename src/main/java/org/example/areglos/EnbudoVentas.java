@@ -26,7 +26,7 @@ public class EnbudoVentas {
         String etapa4 = "El prospecto compra el producto";
         int procentaje4 = 10;
         prospectos = procentaje4 * prospectos / 100;
-        System.out.println("Etapa 4: Hay " + prospectos + " prospectos.");
+        System.out.println("Etapa 4 : Hay " + prospectos + " prospectos.");
 
     }
 }
