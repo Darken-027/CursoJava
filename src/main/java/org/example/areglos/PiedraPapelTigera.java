@@ -18,6 +18,7 @@ public class PiedraPapelTigera {
 
         if(respuestaDelUsuario.equals("Piedra")){
             System.out.println("");
+            System.out.println("");
         }
 
         System.out.println("EMPATE!");
