@@ -17,8 +17,8 @@ public class PiedraPapelTigera {
         System.out.println("La computadora escogio: papel");
 
         if(respuestaDelUsuario.equals("Piedra")){
-            System.out.println("");
-            System.out.println("");
+            System.out.println("PERDISTE");
+            System.out.println("Jugemos a piedra papel o tigera");
         }
 
         System.out.println("EMPATE!");
