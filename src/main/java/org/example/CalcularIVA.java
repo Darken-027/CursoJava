@@ -20,5 +20,6 @@ public class CalcularIVA {
         float totalADescontar = iva * precio / 100;
         float precioFinal = precio - totalADescontar;
         System.out.println("El precio de la IVA es: " + precioFinal);
+        System.out.println();
     }
 }
