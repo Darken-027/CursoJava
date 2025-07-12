@@ -22,5 +22,6 @@ public class CalcularIVA {
         System.out.println("El precio de la IVA es: " + precioFinal);
         System.out.println();
         System.out.println();
+        System.out.println();
     }
 }
