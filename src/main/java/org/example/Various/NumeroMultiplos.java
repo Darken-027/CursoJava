@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Various;
 
 public class NumeroMultiplos {
     public static void main(String[] args) {
