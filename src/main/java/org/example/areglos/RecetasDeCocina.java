@@ -7,5 +7,11 @@ public class RecetasDeCocina {
         System.out.println("Fried ice cream");
         System.out.println("Zurek");
 
+        //The user chooses an option
+
+
+        //Showing the ingredients
+        System.out.println("- salt");
+        System.out.println("- Water");
     }
 }
