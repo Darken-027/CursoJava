@@ -9,7 +9,8 @@ public class Listas {
 
         nombres.add("Juanito");
         nombres.add("Maria");
-
+        //Delte one List
+        nombres.remove(1);
         for (String nombre: nombres){
             System.out.println(nombre);
         }
