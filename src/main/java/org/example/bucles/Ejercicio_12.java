@@ -18,6 +18,7 @@ public class Ejercicio_12 {
         System.out.println();
         System.out.println();
         System.out.println();
+        System.out.println();
 
     }
 }
