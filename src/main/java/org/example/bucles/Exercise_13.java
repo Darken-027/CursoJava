@@ -9,6 +9,9 @@ public class Exercise_13 {
          */
         int yearBirth = 0, currentYear = 0, age = 0;
         Scanner sc = new Scanner(System.in);
+
         System.out.println("How old are you. ");
+        yearBirth = sc.nextInt();   
+
     }
 }
