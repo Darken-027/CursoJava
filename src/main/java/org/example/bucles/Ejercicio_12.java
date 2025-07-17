@@ -10,6 +10,10 @@ public class Ejercicio_12 {
          */
         Scanner sc = new Scanner(System.in);
         System.out.println("Cual es tu edad.");
-        
+        int edad = sc.nextInt();
+
+        while (){
+            
+        }
     }
 }
