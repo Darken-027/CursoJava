@@ -9,11 +9,12 @@ public class Ejercicio_12 {
          * years they have completed (from 1 to their age).
          */
         Scanner sc = new Scanner(System.in);
-        System.out.println("Cual es tu edad.");
+        System.out.println("Whic is your age.");
         int edad = sc.nextInt();
 
+        System.out.println("These are all your years since you were born.");
         while (){
-            
+            System.out.println("Su edad ");
         }
     }
 }
