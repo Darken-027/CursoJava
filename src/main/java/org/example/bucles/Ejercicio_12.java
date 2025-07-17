@@ -15,7 +15,7 @@ public class Ejercicio_12 {
         System.out.println("These are all your years since you were born.");
 
         for (int i = 0; i <= age; i++){
-            System.out.println(i);
+            System.out.println("You have fulfilled " + i + " years");
         }
     }
 }
