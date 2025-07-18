@@ -11,7 +11,7 @@ public class Exercise_13 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("How old are you. ");
-        yearBirth = sc.nextInt();   
+        yearBirth = sc.nextInt();       
 
     }
 }
