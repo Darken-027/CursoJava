@@ -14,6 +14,7 @@ public class Declaracion_if_else_if {
                 Double n1 = -1.0, n2 = 4.5, n3 = -5.3, largest;
                 Double n1 = -1.0, n2 = 4.5, n3 = -5.3, largest;
                 Double n1 = -1.0, n2 = 4.5, n3 = -5.3, largest;
+                Double n1 = -1.0, n2 = 4.5, n3 = -5.3, largest;
             }
         }
     }
