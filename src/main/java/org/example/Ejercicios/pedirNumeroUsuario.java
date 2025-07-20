@@ -10,7 +10,10 @@ public class pedirNumeroUsuario {
 
         while(opc != 2){
             System.out.println("Ingrese un numero");
-            num = sc.nextLine();
+            num = sc.nextInt();
+
+            System.out.println("Desea continuar precione 1 para si y 2 para no");
+            opc = sc.nextInt();
         }
     }
 }
