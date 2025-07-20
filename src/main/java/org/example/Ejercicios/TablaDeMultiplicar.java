@@ -9,6 +9,8 @@ public class TablaDeMultiplicar {
 
         System.out.println("Tabla del " + num);
 
-        for (int i = 1; i <= 10; i++) {}
+        for (int i = 1; i <= 10; i++) {
+            System.out.println( num + " X " + i + " = " + num * i);
+        }
     }
 }
