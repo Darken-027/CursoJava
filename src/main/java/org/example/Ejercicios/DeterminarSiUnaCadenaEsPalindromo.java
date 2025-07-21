@@ -8,6 +8,11 @@ public class DeterminarSiUnaCadenaEsPalindromo {
         System.out.println("Ingrese la cadena. ");
         String cadena = sc.next();
 
-        
+        String reversa = "";
+
+        for (int i = cadena.length() -1; i >= 0; i--){
+            reversa += cadena.charAt(i);
+        }
+        System.out.println(reversa);
     }
 }
