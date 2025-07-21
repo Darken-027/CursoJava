@@ -9,9 +9,15 @@ public class ImprimirTorreDeAsteriscos {
         int tam = sc.nextInt();
 
         for(int altura = 1; altura < tam; altura++){
-            for(int i = 1; i <= (altura * 2) -1; i++){
 
+            for (int e = 1; e <= (tam - altura); e++){
+                System.out.print(" ");
             }
+
+            for(int i = 1; i <= (altura * 2) -1; i++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
