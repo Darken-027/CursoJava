@@ -33,6 +33,9 @@ public class OperacionPrincipal {
 
     //METODO PARA MOSTRAR EL RESULTADO
     public void mostrarResultado(){
-
+        System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + resta);
+        System.out.println("La multiplicacion es: " + multiplicacion);
+        System.out.println("La division es: " + divisioon);
     }
 }
