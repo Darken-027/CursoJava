@@ -7,6 +7,7 @@ public class app {
         Scanner sc = new Scanner(System.in);
 
         String [] apellidos = new String[5];
+        int sumaPrecios = 0;
 
         apellidos[0] = "Hamby";
         apellidos[1] = "Maria";
@@ -26,6 +27,14 @@ public class app {
         }
         for (int i = 0; i < precios.length; i++){
             System.out.println(precios[i]);
+        }
+
+        for(int i = 0; i < precios.length; i++){
+            sumaPrecios = precios[i];
+        }
+
+        for(int i = 0; i < precios.length; i++){
+            sumaPrecios = precios[i];
         }
     }
 }
