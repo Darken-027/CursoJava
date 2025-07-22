@@ -24,5 +24,8 @@ public class app {
             System.out.println("Dame un precio: ");
             precios[0] = sc.nextInt();
         }
+        for (int i = 0; i < precios.length; i++){
+            System.out.println(precios[i]);
+        }
     }
 }
