@@ -30,11 +30,8 @@ public class app {
         }
 
         for(int i = 0; i < precios.length; i++){
-            sumaPrecios = precios[i];
+            sumaPrecios = sumaPrecios + precios[i];
         }
-
-        for(int i = 0; i < precios.length; i++){
-            sumaPrecios = precios[i];
-        }
+        System.out.println("Suma de los precios: " + sumaPrecios);
     }
 }
