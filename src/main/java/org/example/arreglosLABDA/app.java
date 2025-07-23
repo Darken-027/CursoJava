@@ -1,4 +1,4 @@
-package org.example.arreglos;
+package org.example.arreglosLABDA;
 
 import java.util.Scanner;
 

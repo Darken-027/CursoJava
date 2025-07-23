@@ -1,4 +1,4 @@
-package org.example.arreglos;
+package org.example.arreglosLABDA;
 
 public class Arreglo {
     public static void main(String[] args) {
