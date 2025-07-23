@@ -22,17 +22,22 @@ public class App2 {
         for (int i = 0; i < longitud; i++){
             System.out.println(arreglo[i]);
         }
-        
+
         int guardado;
         for(int i = 0; i < (longitud-1); i++){
 
-            for(int j = 0; i < (longitud-1); i++){
+            for(int j = 0; j < (longitud-1); j++){
                 if(arreglo[j] > arreglo[j+1]){
                     guardado = arreglo[j];
                     arreglo[j] = arreglo[j+1];
                     arreglo[j+1] = guardado;
                 }
             }
+        }
+
+        System.out.println("ARREGLO ORDENADO: ");
+        for (int i = 0; i < longitud; i++){
+            System.out.println(arreglo[i]);
         }
     }
 }
