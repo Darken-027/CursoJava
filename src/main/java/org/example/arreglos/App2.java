@@ -1,7 +1,12 @@
 package org.example.arreglos;
 
+import java.util.Scanner;
+
 public class App2 {
     public static void main(String[] args) {
-        System.out.println("example");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Cuantos numeros quieres guardar. ");
+
+
     }
 }
