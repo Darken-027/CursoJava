@@ -24,13 +24,32 @@ public class App2 {
         }
 
         int aux;
+        int guardado;
         for(int i = 0; i < (longitud-1); i++){
 
             for(int j = 0; i < (longitud-1); i++){
                 if(arreglo[j] > arreglo[j+1]){
-
+                    guardado = arreglo[j];
+                    arreglo[j] = arreglo[j+1];
+                    arreglo[j+1] = guardado;
                 }
             }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
