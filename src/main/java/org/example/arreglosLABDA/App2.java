@@ -22,8 +22,7 @@ public class App2 {
         for (int i = 0; i < longitud; i++){
             System.out.println(arreglo[i]);
         }
-
-        int aux;
+        
         int guardado;
         for(int i = 0; i < (longitud-1); i++){
 
