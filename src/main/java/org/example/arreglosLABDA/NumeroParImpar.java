@@ -9,5 +9,7 @@ public class NumeroParImpar {
         System.out.println("Dame un numero");
 
         numero= sc.nextInt();
+
+        int resultado = numero % 2;
     }
 }
