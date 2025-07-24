@@ -11,5 +11,6 @@ public class NumeroParImpar {
         numero= sc.nextInt();
 
         int resultado = numero % 2;
+        System.out.println("El resultado es: " + resultado);
     }
 }
