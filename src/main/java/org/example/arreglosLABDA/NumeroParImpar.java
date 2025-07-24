@@ -14,7 +14,7 @@ public class NumeroParImpar {
         /*System.out.println("El resultado es: " + resultado);*/
 
         if(resultado == 0){
-            
+            System.out.println("El numero es par ");
         }
     }
 }
