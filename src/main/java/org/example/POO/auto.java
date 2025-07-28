@@ -12,7 +12,7 @@ public class auto {
 
     public static void main(String[] args) {
         auto mi_auto = new auto(2018, "mazda");
-        System.out.println("Datos de mi auto: " + mi_auto.marca + ", " +  mi_auto.modelo);
+        System.out.println("Datos de mi auto: " + mi_auto.marca +  ", " +  mi_auto.modelo);
     }
 }
 
