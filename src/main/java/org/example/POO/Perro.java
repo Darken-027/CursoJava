@@ -15,4 +15,14 @@ public class Perro {
     public void correr(){
         System.out.println("Perro corriendo......");
     }
+
+    public void comer(){
+        System.out.println("comer......");
+    }
+
+    public void datos(){
+        System.out.println("id: " + ID);
+        System.out.println("raza: " + raza);
+        System.out.println("precio: " + precio);
+    }
 }
