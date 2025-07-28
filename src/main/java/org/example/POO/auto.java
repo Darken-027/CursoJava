@@ -1,7 +1,13 @@
 package org.example.POO;
 
 public class auto {
-    public void acelerar(){
+
+}
+
+
+
+//FUNCION COMENTADA PARA NO ELIMINARLA Y TENER UNA REFERENCIA COMO EJEMPLO
+/* public void acelerar(){
         System.out.println("Acelerando...");
     }
 
@@ -13,5 +19,4 @@ public class auto {
         auto toyota = new auto();
         toyota.acelerar();
         toyota.velocidad(189);
-    }
-}
+    }*/
