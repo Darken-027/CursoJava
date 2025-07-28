@@ -6,7 +6,12 @@ public class auto {
     }
 
     public void velocidad(int vel_max){
-        System.out.println("La velocidad maxima es: " + vel_max);
+        System.out.println("La velocidad maxima es: " + vel_max + "Km/h");
+    }
+
+    public static void main(String[] args) {
+        auto toyota = new auto();
+        toyota.acelerar();
+        toyota.velocidad(189);
     }
 }
-//
