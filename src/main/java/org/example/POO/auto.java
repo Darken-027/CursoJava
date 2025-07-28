@@ -10,7 +10,9 @@ public class auto {
         marca = nombre;
     }
 
-    
+    public static void main(String[] args) {
+        auto mi_auto = new auto(2018, "mazda");
+    }
 }
 
 
