@@ -9,3 +9,4 @@ public class auto {
         System.out.println("La velocidad maxima es: " + vel_max);
     }
 }
+//
