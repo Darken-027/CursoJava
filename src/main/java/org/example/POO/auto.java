@@ -1,7 +1,16 @@
 package org.example.POO;
 
 public class auto {
+    int modelo;
+    String marca;
 
+    //Creacion de un contructor
+    public auto(int anio, String nombre){
+        modelo = anio;
+        marca = nombre;
+    }
+
+    
 }
 
 
