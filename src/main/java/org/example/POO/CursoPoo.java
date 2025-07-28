@@ -1,5 +1,4 @@
 package org.example.POO;
 
-public class Persona {
-
+public class CursoPoo {
 }

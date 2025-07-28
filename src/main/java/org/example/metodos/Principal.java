@@ -14,5 +14,6 @@ public class Principal {
         op.multiplicar(n1,n2);
         op.devidir(n1,n2);
         op.mostrarResultado();
+
     }
 }
