@@ -1,4 +1,4 @@
 package org.example.POO;
 
-public class CursoPoo  {
+public class Prueva {
 }
