@@ -11,4 +11,8 @@ public class Perro {
         this.raza = raza;
         this.precio = precio;
     }
+
+    public void correr(){
+        System.out.println("Perro corriendo......");
+    }
 }
