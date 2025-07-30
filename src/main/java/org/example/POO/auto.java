@@ -16,7 +16,7 @@ public class auto {
     }
 }
 
-
+//Clase afectada
 
 //FUNCION COMENTADA PARA NO ELIMINARLA Y TENER UNA REFERENCIA COMO EJEMPLO
 /* public void acelerar(){
