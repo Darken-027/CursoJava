@@ -6,7 +6,7 @@ public class Principal {
         Libro libro1 = new Libro(3164, "titulo1", "autor1", 30);
         Libro libro2 = new Libro(2541, "titulo2", "autor2", 20);
 
-        
+
         System.out.println(libro1.toString());
         System.out.println(libro2.toString());
 
