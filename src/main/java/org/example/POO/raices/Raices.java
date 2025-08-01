@@ -60,6 +60,14 @@ public class Raices {
 
     public void calcular(){
 
+        if(tieneRaices()){
+            obtenerRaices();
+        }else if(tieneRaiz()){
+            obtenerRaiz();
+        }else {
+            System.out.println("No tiene soluciones");
+        }
+
     }
 
 }
