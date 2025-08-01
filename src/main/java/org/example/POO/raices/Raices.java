@@ -32,6 +32,8 @@ public class Raices {
     }
     private void obtenerRaiz(){
 
+         
+
     }
 
     private double getDiscriminante(){
@@ -44,6 +46,10 @@ public class Raices {
 
     private boolean tieneRaiz(){
         return getDiscriminante() == 0;
+    }
+
+    public void calcular(){
+
     }
 
 }
