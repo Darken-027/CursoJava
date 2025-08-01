@@ -29,15 +29,20 @@ public class Raices {
 
     private void obtenerRaices(){
 
+        double x1 = (-b + Math.sqrt(getDiscriminante()))/(2 * a);
+        double x2 = (-b - Math.sqrt(getDiscriminante()))/(2 * a);
+
         System.out.println("Solucion X1");
-        System.out.println();
+        System.out.println(x1);
         System.out.println("Solucion X2");
-        System.out.println();
+        System.out.println(x2);
     }
     private void obtenerRaiz(){
 
+        double x = (-b)/(2 * a);
+
         System.out.println("Unica solucion");
-        System.out.println();
+        System.out.println(x);
 
     }
 
