@@ -29,10 +29,15 @@ public class Raices {
 
     private void obtenerRaices(){
 
+        System.out.println("Solucion X1");
+        System.out.println();
+        System.out.println("Solucion X2");
+        System.out.println();
     }
     private void obtenerRaiz(){
 
-         
+        System.out.println("Unica solucion");
+        System.out.println();
 
     }
 
