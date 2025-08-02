@@ -51,7 +51,7 @@ public class Raices {
     }
 
     private boolean tieneRaices(){
-        return getDiscriminante() >= 0;
+        return getDiscriminante() > 0;
     }
 
     private boolean tieneRaiz(){
