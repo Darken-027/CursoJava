@@ -5,5 +5,7 @@ public class Persona {
     private char sexo;
     private int edad;
 
+    public Persona(){
 
+    }
 }
