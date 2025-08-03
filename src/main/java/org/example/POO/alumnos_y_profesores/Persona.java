@@ -4,4 +4,6 @@ public class Persona {
     private String nombre;
     private char sexo;
     private int edad;
+
+
 }
