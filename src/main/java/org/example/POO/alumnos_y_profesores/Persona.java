@@ -15,14 +15,15 @@ public class Persona {
     public Persona(){
         int determinarSexo = MetodosSueltos.generaNumeroAleatorio(0,1);
 
-        if (determinarSexo == 0) {
+        if (determinarSexo == CHICO) {
             nombre = NOMBRES_CHICOS[MetodosSueltos.generaNumeroAleatorio(0,4)];
-            sexo = 'H'
+            sexo = 'H';
         }else {
             nombre = NOMBRES_CHICAS[MetodosSueltos.generaNumeroAleatorio(0,4)];
             sexo = 'M';
         }
 
+       edad =  MetodosSueltos.generaNumeroAleatorio(12,15);
 
     }
 }
