@@ -10,6 +10,6 @@ public class Persona {
 
 
     public Persona(){
-
+        nombre = NOMBRES_CHICOS[MetodosSueltos.generaNumeroAleatorio(0,5)];
     }
 }
