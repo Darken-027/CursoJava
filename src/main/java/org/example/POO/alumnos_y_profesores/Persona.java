@@ -10,6 +10,9 @@ public class Persona {
 
 
     public Persona(){
-        nombre = NOMBRES_CHICOS[MetodosSueltos.generaNumeroAleatorio(0,5)];
+        int determinarSexo = MetodosSueltos.generaNumeroAleatorio(0,1);
+
+
+        nombre = NOMBRES_CHICOS[MetodosSueltos.generaNumeroAleatorio(0,4)];
     }
 }
