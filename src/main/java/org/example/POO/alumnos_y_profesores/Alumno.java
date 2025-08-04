@@ -8,5 +8,7 @@ public class Alumno extends Persona{
         super();
 
         nota =  MetodosSueltos.generaNumeroAleatorio(0,10);
+
+        super.setEdad(edad = MetodosSueltos.generaNumeroAleatorio(10, 15));
     }
 }
