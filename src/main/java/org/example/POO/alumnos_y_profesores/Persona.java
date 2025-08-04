@@ -22,8 +22,45 @@ public class Persona {
             nombre = NOMBRES_CHICAS[MetodosSueltos.generaNumeroAleatorio(0,4)];
             sexo = 'M';
         }
+    }
 
-       edad =  MetodosSueltos.generaNumeroAleatorio(12,15);
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public char getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String[] getNOMBRES_CHICOS() {
+        return NOMBRES_CHICOS;
+    }
+
+    public String[] getNOMBRES_CHICAS() {
+        return NOMBRES_CHICAS;
+    }
+
+    public int getCHICO() {
+        return CHICO;
+    }
+
+    public int getCHICAS() {
+        return CHICAS;
     }
 }
