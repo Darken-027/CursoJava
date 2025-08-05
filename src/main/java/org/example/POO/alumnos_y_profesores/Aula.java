@@ -26,6 +26,12 @@ public class Aula {
     }
 
     public boolean darClase(){
-        
+        if(profesor.isAsistencia()){
+            System.out.println("El profesor no esta, no se puede dar clases");
+            return false;
+        }else if(profesor.getMateria().equals(materia)){
+            System.out.println("El profesor no esta, no se puede dar clases");
+            return false;
+        }
     }
 }

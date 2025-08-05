@@ -12,12 +12,12 @@ public class Profesor extends Persona{
 
     }
 
-    public String getMaterias() {
+    public String getMateria() {
         return materias;
     }
 
-    public void setMaterias(String materias) {
-        this.materias = materias;
+    public void setMaterias(String materia) {
+        this.materias = materia;
     }
 
     @Override
