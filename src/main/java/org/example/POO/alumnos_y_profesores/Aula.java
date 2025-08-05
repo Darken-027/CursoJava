@@ -34,7 +34,7 @@ public class Aula {
         }
 
         return cuentaAsistencias >= ((int)MAX_ALUMNOS / 2);
-        
+
     }
 
     public boolean darClase(){
@@ -44,8 +44,9 @@ public class Aula {
         }else if(profesor.getMateria().equals(materia)){
             System.out.println("La materia del profesor y del aula no es la misma");
             return false;
-        }else if(){
-
+        }else if(!asistenciaAlumnos()){
+            System.out.println("La asistencia no es suficiente");
+            return false;
         }
         System.out.println("Se puede dar clases");
         return true;
