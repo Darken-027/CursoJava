@@ -1,5 +1,5 @@
 package org.example.POO.alumnos_y_profesores;
-
+    
 public abstract class Persona {
     private String nombre;
     private char sexo;
