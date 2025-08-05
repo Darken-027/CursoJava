@@ -1,10 +1,10 @@
 package org.example.POO.alumnos_y_profesores;
 
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private char sexo;
     private int edad;
-
+    private boolean asistencia;
     //CONSTANTES
     private final String[] NOMBRES_CHICOS = {"pepe", "fernando", "alberto", "nacho"};
     private final String[] NOMBRES_CHICAS = {"alicia", "juana", "alberta", "urelia"};
@@ -63,4 +63,17 @@ public class Persona {
     public int getCHICAS() {
         return CHICAS;
     }
+
+
+    public boolean isAsistencia() {
+        return asistencia;
+    }
+
+
+    public void setAsistencia(boolean asistencia) {
+        this.asistencia = asistencia;
+    }
+
+    public abstract void disponibilidad();
+
 }

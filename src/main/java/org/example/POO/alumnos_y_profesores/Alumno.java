@@ -19,4 +19,18 @@ public class Alumno extends Persona{
     public void setNota(int nota) {
         this.nota = nota;
     }
+
+    @Override
+    public boolean disponibilidad(){
+
+        int prob = MetodosSueltos.generaNumeroAleatorio(0, 100);
+
+        if(prob<50){
+            super.setAsistencia(false);
+        }else{
+            super.setAsistencia(false);
+        }
+
+    }
+
 }
