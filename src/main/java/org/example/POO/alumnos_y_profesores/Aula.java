@@ -25,13 +25,29 @@ public class Aula {
         }
     }
 
+    private boolean asistenciaAlumnos(){
+        int cuentaAsistencias = 0;
+        for(int i = 0; i < alumnos.length; i++){
+            if(alumnos[i].isAsistencia()){
+                cuentaAsistencias++;
+            }
+        }
+
+        return cuentaAsistencias >= ((int)MAX_ALUMNOS / 2);
+        
+    }
+
     public boolean darClase(){
         if(profesor.isAsistencia()){
             System.out.println("El profesor no esta, no se puede dar clases");
             return false;
         }else if(profesor.getMateria().equals(materia)){
-            System.out.println("El profesor no esta, no se puede dar clases");
+            System.out.println("La materia del profesor y del aula no es la misma");
             return false;
+        }else if(){
+
         }
+        System.out.println("Se puede dar clases");
+        return true;
     }
 }
