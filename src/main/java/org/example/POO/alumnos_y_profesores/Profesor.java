@@ -8,6 +8,7 @@ public class Profesor extends Persona{
 
         super.setEdad(MetodosSueltos.generaNumeroAleatorio(25,40));
 
-
+        materias = Constantes.MATERIAS[MetodosSueltos.generaNumeroAleatorio(0,2)];
+        
     }
 }
