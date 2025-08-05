@@ -28,7 +28,7 @@ public class Alumno extends Persona{
         if(prob<50){
             super.setAsistencia(false);
         }else{
-            super.setAsistencia(false);
+            super.setAsistencia(true);
         }
 
     }
