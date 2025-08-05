@@ -21,7 +21,7 @@ public class Alumno extends Persona{
     }
 
     @Override
-    public boolean disponibilidad(){
+    public void disponibilidad(){
 
         int prob = MetodosSueltos.generaNumeroAleatorio(0, 100);
 

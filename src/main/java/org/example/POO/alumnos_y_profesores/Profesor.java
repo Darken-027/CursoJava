@@ -19,4 +19,15 @@ public class Profesor extends Persona{
     public void setMaterias(String materias) {
         this.materias = materias;
     }
+
+    @Override
+    public void disponibilidad(){
+        int prob = MetodosSueltos.generaNumeroAleatorio(0, 100);
+
+        if(prob<20){
+            super.setAsistencia(false);
+        }else{
+            super.setAsistencia(false);
+        }
+    }
 }
