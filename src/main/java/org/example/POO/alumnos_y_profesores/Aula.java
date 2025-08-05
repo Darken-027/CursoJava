@@ -51,4 +51,22 @@ public class Aula {
         System.out.println("Se puede dar clases");
         return true;
     }
+
+    public void notas(){
+        int chicosApro = 0;
+        int chicasApro = 0;
+        for(int i = 0; i < alumnos.length; i++){
+            if(alumnos[i].getNota() >= 5){
+                if(alumnos[i].getSexo() == 'H'){
+                    chicosApro++;
+                }else {
+                    chicasApro++;
+                }
+                System.out.println(alumnos[i].toString());
+            }
+        }
+
+        System.out.println("Hay " + chicasApro + " chicos y " + chicasApro + " chicas " +
+                "aprovadss/das");
+    }
 }

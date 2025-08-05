@@ -33,4 +33,8 @@ public class Alumno extends Persona{
 
     }
 
+    public String toString(){
+        return "Nombre: " + super.getNombre() + " sexo " + super.getSexo() + " nota" + nota ;
+    }
+
 }
